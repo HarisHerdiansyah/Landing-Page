@@ -1,0 +1,300 @@
+@media only screen and (min-width: 280px) and (max-width: 479px) {
+    .welcome-section {
+        background-position: center;
+    }
+
+    .transparent h1 {
+        font-size: 28px;
+    }
+
+    header {
+        padding: 30px 0;
+    }
+
+    header .nav a {
+        display: none;
+    }
+
+    header li .fa-bars {
+        display: block;
+        margin: 0;
+    }
+
+    .section-about {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .introduction,
+    .education,
+    .working {
+        place-self: center;
+        width: 100%;
+    }
+
+    .introduction {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .education {
+        grid-row: 2/3;
+    }
+
+    .working {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .introduction i,
+    .education i,
+    .working i {
+        font-size: 32px;
+    }
+
+    .introduction .text,
+    .education .text,
+    .working .text {
+        text-align: center;
+        line-height: 22px;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+
+    .section-project h1 {
+        font-size: 28px;
+    }
+
+    .project-wrapper {
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+
+    .codejar,
+    .travego {
+        width: 80%;
+    }
+
+    main h1 {
+        font-size: 28px;
+    }
+
+    .contact-wrapper {
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+
+    .form,
+    .contact {
+        width: 80%;
+        padding: 0;
+    }
+
+    .form p {
+        font-size: 12px;
+    }
+
+    .form input,
+    .form textarea,
+    .form button {
+        width: 80%;
+    }
+
+    .contact {
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .sub-contact {
+        width: 90%;
+    }
+
+    .sub-contact .icon {
+        font-size: 28px;
+    }
+
+    .sub-contact .text {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .welcome-section {
+        background-position: center;
+    }
+
+    .transparent h1 {
+        font-size: 32px;
+    }
+
+    header {
+        padding: 30px 0;
+    }
+
+    header .nav a {
+        display: none;
+    }
+
+    header li .fa-bars {
+        display: block;
+        margin: 0;
+    }
+
+    .section-about {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .introduction,
+    .education,
+    .working {
+        place-self: center;
+        width: 100%;
+    }
+
+    .introduction {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .education {
+        grid-row: 2/3;
+    }
+
+    .working {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .introduction i,
+    .education i,
+    .working i {
+        font-size: 36px;
+    }
+
+    .introduction .text,
+    .education .text,
+    .working .text {
+        text-align: center;
+        line-height: 22px;
+        letter-spacing: 1px;
+        font-size: 16px;
+    }
+
+    .section-project h1 {
+        font-size: 28px;
+    }
+
+    .project-wrapper {
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+
+    .codejar,
+    .travego {
+        width: 80%;
+    }
+
+    main h1 {
+        font-size: 28px;
+    }
+
+    .contact-wrapper {
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+
+    .form,
+    .contact {
+        width: 80%;
+        padding: 0;
+    }
+
+
+    .form input,
+    .form textarea,
+    .form button {
+        width: 80%;
+    }
+
+    .contact {
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .sub-contact {
+        width: 80%;
+    }
+
+    .sub-contact .icon {
+        font-size: 34px;
+    }
+
+    .sub-contact .text {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1240px) {
+    .welcome-section {
+        background-position: center;
+    }
+
+    /* .transparent h1 {
+        font-size: 44px;
+    } */
+
+    .section-about {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .introduction,
+    .education,
+    .working {
+        place-self: center;
+        width: 100%;
+    }
+
+    .introduction {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .education {
+        grid-row: 2/3;
+    }
+
+    .working {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .project-wrapper {
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
+    .contact-wrapper {
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+}
